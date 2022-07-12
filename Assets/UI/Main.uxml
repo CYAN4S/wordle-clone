@@ -1,0 +1,42 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Keyboard.uss?fileID=7433441132597879392&amp;guid=bb8dc107c3dafb64b8ac949341f8ec89&amp;type=3#Keyboard" />
+    <ui:VisualElement style="height: 100%; align-items: center;">
+        <ui:GroupBox style="flex-grow: 1;" />
+        <ui:GroupBox name="keyboard" style="justify-content: flex-start; height: auto; align-items: stretch; max-width: 858px; width: auto;">
+            <ui:GroupBox name="key-row-1" class="key-row">
+                <ui:Button text="Q" name="q" />
+                <ui:Button text="W" name="w" />
+                <ui:Button text="E" name="e" />
+                <ui:Button text="R" name="r" />
+                <ui:Button text="T" name="t" />
+                <ui:Button text="Y" name="y" />
+                <ui:Button text="U" name="u" />
+                <ui:Button text="I" name="i" />
+                <ui:Button text="O" name="o" />
+                <ui:Button text="P" name="p" />
+            </ui:GroupBox>
+            <ui:GroupBox name="key-row-2" class="key-row">
+                <ui:Button text="A" name="a" />
+                <ui:Button text="S" name="s" />
+                <ui:Button text="D" name="d" />
+                <ui:Button text="F" name="f" />
+                <ui:Button text="G" name="g" />
+                <ui:Button text="H" name="h" />
+                <ui:Button text="J" name="j" />
+                <ui:Button text="K" name="k" />
+                <ui:Button text="L" name="l" />
+            </ui:GroupBox>
+            <ui:GroupBox name="key-row-3" class="key-row">
+                <ui:Button text="erase" name="erase" />
+                <ui:Button text="Z" name="z" />
+                <ui:Button text="X" name="x" />
+                <ui:Button text="C" name="c" />
+                <ui:Button text="V" name="v" />
+                <ui:Button text="B" name="b" />
+                <ui:Button text="N" name="n" />
+                <ui:Button text="M" name="m" />
+                <ui:Button text="enter" name="enter" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

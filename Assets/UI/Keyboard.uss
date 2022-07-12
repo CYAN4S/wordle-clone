@@ -1,0 +1,17 @@
+.key-row Button {
+    font-size: 36px;
+    -unity-text-align: upper-center;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.key-row {
+    flex-direction: row;
+    justify-content: center;
+}
