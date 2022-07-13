@@ -1,42 +1,89 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/Keyboard.uss?fileID=7433441132597879392&amp;guid=bb8dc107c3dafb64b8ac949341f8ec89&amp;type=3#Keyboard" />
-    <ui:VisualElement style="height: 100%; align-items: center;">
-        <ui:GroupBox style="flex-grow: 1;" />
-        <ui:GroupBox name="keyboard" style="justify-content: flex-start; height: auto; align-items: stretch; max-width: 858px; width: auto;">
-            <ui:GroupBox name="key-row-1" class="key-row">
-                <ui:Button text="Q" name="q" />
-                <ui:Button text="W" name="w" />
-                <ui:Button text="E" name="e" />
-                <ui:Button text="R" name="r" />
-                <ui:Button text="T" name="t" />
-                <ui:Button text="Y" name="y" />
-                <ui:Button text="U" name="u" />
-                <ui:Button text="I" name="i" />
-                <ui:Button text="O" name="o" />
-                <ui:Button text="P" name="p" />
+    <ui:VisualElement style="width: 100%; height: 100%;">
+        <ui:GroupBox name="main">
+            <ui:Label text="WORDLE" display-tooltip-when-elided="true" style="-unity-font-definition: url(&apos;project://database/Assets/Fonts/Outfit-Bold%20SDF.asset?fileID=11400000&amp;guid=7470a9f029b97c64088cd4d8504ac5f9&amp;type=2#Outfit-Bold SDF&apos;); -unity-font: url(&apos;project://database/Assets/Fonts/Outfit-Bold.ttf?fileID=12800000&amp;guid=9e8265ed5aaf2ad44ad9f88e6995a17c&amp;type=3#Outfit-Bold&apos;); font-size: 60px; -unity-text-align: upper-center;" />
+            <ui:GroupBox name="board">
+                <ui:GroupBox name="board-row-0" class="board-row">
+                    <ui:Label name="board-0-0" class="board" />
+                    <ui:Label name="board-0-1" class="board" />
+                    <ui:Label name="board-0-2" class="board" />
+                    <ui:Label name="board-0-3" class="board" />
+                    <ui:Label name="board-0-4" class="board" />
+                </ui:GroupBox>
+                <ui:GroupBox name="board-row-1" class="board-row">
+                    <ui:Label name="board-1-0" class="board" />
+                    <ui:Label name="board-1-1" class="board" />
+                    <ui:Label name="board-1-2" class="board" />
+                    <ui:Label name="board-1-3" class="board" />
+                    <ui:Label name="board-1-4" class="board" />
+                </ui:GroupBox>
+                <ui:GroupBox name="board-row-2" class="board-row">
+                    <ui:Label name="board-2-0" class="board" />
+                    <ui:Label name="board-2-1" class="board" />
+                    <ui:Label name="board-2-2" class="board" />
+                    <ui:Label name="board-2-3" class="board" />
+                    <ui:Label name="board-2-4" class="board" />
+                </ui:GroupBox>
+                <ui:GroupBox name="board-row-3" class="board-row">
+                    <ui:Label name="board-3-0" class="board" />
+                    <ui:Label name="board-3-1" class="board" />
+                    <ui:Label name="board-3-2" class="board" />
+                    <ui:Label name="board-3-3" class="board" />
+                    <ui:Label name="board-3-4" class="board" />
+                </ui:GroupBox>
+                <ui:GroupBox name="board-row-4" class="board-row">
+                    <ui:Label name="board-4-0" class="board" />
+                    <ui:Label name="board-4-1" class="board" />
+                    <ui:Label name="board-4-2" class="board" />
+                    <ui:Label name="board-4-3" class="board" />
+                    <ui:Label name="board-4-4" class="board" />
+                </ui:GroupBox>
+                <ui:GroupBox name="board-row-5" class="board-row">
+                    <ui:Label name="board-5-0" class="board" />
+                    <ui:Label name="board-5-1" class="board" />
+                    <ui:Label name="board-5-2" class="board" />
+                    <ui:Label name="board-5-3" class="board" />
+                    <ui:Label name="board-5-4" class="board" />
+                </ui:GroupBox>
             </ui:GroupBox>
-            <ui:GroupBox name="key-row-2" class="key-row">
-                <ui:Button text="A" name="a" />
-                <ui:Button text="S" name="s" />
-                <ui:Button text="D" name="d" />
-                <ui:Button text="F" name="f" />
-                <ui:Button text="G" name="g" />
-                <ui:Button text="H" name="h" />
-                <ui:Button text="J" name="j" />
-                <ui:Button text="K" name="k" />
-                <ui:Button text="L" name="l" />
-            </ui:GroupBox>
-            <ui:GroupBox name="key-row-3" class="key-row">
-                <ui:Button text="erase" name="erase" />
-                <ui:Button text="Z" name="z" />
-                <ui:Button text="X" name="x" />
-                <ui:Button text="C" name="c" />
-                <ui:Button text="V" name="v" />
-                <ui:Button text="B" name="b" />
-                <ui:Button text="N" name="n" />
-                <ui:Button text="M" name="m" />
-                <ui:Button text="enter" name="enter" />
+            <ui:GroupBox name="keyboard">
+                <ui:GroupBox name="key-row-0" class="key-row">
+                    <ui:Button text="Q" name="q" />
+                    <ui:Button text="W" name="w" />
+                    <ui:Button text="E" name="e" />
+                    <ui:Button text="R" name="r" />
+                    <ui:Button text="T" name="t" />
+                    <ui:Button text="Y" name="y" />
+                    <ui:Button text="U" name="u" />
+                    <ui:Button text="I" name="i" />
+                    <ui:Button text="O" name="o" />
+                    <ui:Button text="P" name="p" />
+                </ui:GroupBox>
+                <ui:GroupBox name="key-row-1" class="key-row" style="height: 67px;">
+                    <ui:Button text="A" name="a" />
+                    <ui:Button text="S" name="s" />
+                    <ui:Button text="D" name="d" />
+                    <ui:Button text="F" name="f" />
+                    <ui:Button text="G" name="g" />
+                    <ui:Button text="H" name="h" />
+                    <ui:Button text="J" name="j" />
+                    <ui:Button text="K" name="k" />
+                    <ui:Button text="L" name="l" />
+                </ui:GroupBox>
+                <ui:GroupBox name="key-row-2" class="key-row">
+                    <ui:Button text="erase" name="erase" />
+                    <ui:Button text="Z" name="z" />
+                    <ui:Button text="X" name="x" />
+                    <ui:Button text="C" name="c" />
+                    <ui:Button text="V" name="v" />
+                    <ui:Button text="B" name="b" />
+                    <ui:Button text="N" name="n" />
+                    <ui:Button text="M" name="m" />
+                    <ui:Button text="enter" name="enter" />
+                </ui:GroupBox>
             </ui:GroupBox>
         </ui:GroupBox>
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="alert" style="-unity-font-definition: url(&apos;project://database/Assets/Fonts/Outfit-Regular%20SDF.asset?fileID=11400000&amp;guid=e955187105fa91249a7ad29cd0af7692&amp;type=2#Outfit-Regular SDF&apos;); -unity-font: url(&apos;project://database/Assets/Fonts/Outfit-Regular.ttf?fileID=12800000&amp;guid=3f955bd76c1796848ac887f49fd364e3&amp;type=3#Outfit-Regular&apos;); font-size: 36px; background-color: rgba(0, 0, 0, 0.43); color: rgb(255, 255, 255); opacity: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 16px; padding-right: 16px; padding-top: 8px; padding-bottom: 8px; position: absolute; left: 50%; top: 50%; translate: -50% -50%; display: none;" />
     </ui:VisualElement>
 </ui:UXML>

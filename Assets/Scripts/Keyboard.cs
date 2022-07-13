@@ -25,15 +25,14 @@ public class Keyboard : MonoBehaviour
         _erase = _root.Q<Button>("erase");
         _keys = Enumerable
             .Range('a', 26)
-            .Select(c => _root.Q<Button>($"{(char) c}"))
+            .Select(i => _root.Q<Button>($"{(char) i}"))
             .ToList();
 
-        _enter.clickable.clicked += () => { Entered?.Invoke(); };
-        _erase.clickable.clicked += () => { Erased?.Invoke(); };
+        _enter.clickable.clicked += () => Entered?.Invoke();
+        _erase.clickable.clicked += () => Erased?.Invoke();
 
-        foreach (var key in _keys)
-        {
-            key.clickable.clicked += () => { Typed?.Invoke(key.name[0]); };
-        }
+        _keys.ForEach(key =>
+            key.clickable.clicked += () => Typed?.Invoke(key.name[0])
+        );
     }
 }
