@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a317dae-7470-43c9-b4ad-5ee97b747704" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Inter-Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fonts/Inter-Bold.otf.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.wordle-clone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.wordle-clone/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Alert.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Alert.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Keyboard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Keyboard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Keyboard.uss" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Keyboard.uss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI/Main.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Main.uxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/CYAN4S/Projects/wordle-clone/Assets/Scripts/Alert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/CYAN4S/Projects/wordle-clone/Assets/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/CYAN4S/Projects/wordle-clone/Assets/Scripts/Keyboard.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -94,7 +92,7 @@
       <workItem from="1657719356204" duration="3295000" />
       <workItem from="1657768637579" duration="9579000" />
       <workItem from="1658253416604" duration="1886000" />
-      <workItem from="1658311856352" duration="9735000" />
+      <workItem from="1658311856352" duration="10363000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1657637844595</created>
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657723764724</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Complete">
+      <created>1658324263309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658324263309</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +140,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Make more" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make more" />
+    <MESSAGE value="Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete" />
   </component>
 </project>
