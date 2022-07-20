@@ -1,6 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/Keyboard.uss?fileID=7433441132597879392&amp;guid=bb8dc107c3dafb64b8ac949341f8ec89&amp;type=3#Keyboard" />
-    <ui:VisualElement style="width: 100%; height: 100%;">
+    <ui:VisualElement style="width: 100%; height: 100%; justify-content: center;">
         <ui:GroupBox name="main">
             <ui:Label text="WORDLE" display-tooltip-when-elided="true" style="-unity-font-definition: url(&apos;project://database/Assets/Fonts/Outfit-Bold%20SDF.asset?fileID=11400000&amp;guid=7470a9f029b97c64088cd4d8504ac5f9&amp;type=2#Outfit-Bold SDF&apos;); -unity-font: url(&apos;project://database/Assets/Fonts/Outfit-Bold.ttf?fileID=12800000&amp;guid=9e8265ed5aaf2ad44ad9f88e6995a17c&amp;type=3#Outfit-Bold&apos;); font-size: 60px; -unity-text-align: upper-center;" />
             <ui:GroupBox name="board">
@@ -49,41 +49,41 @@
             </ui:GroupBox>
             <ui:GroupBox name="keyboard">
                 <ui:GroupBox name="key-row-0" class="key-row">
-                    <ui:Button text="Q" name="q" />
-                    <ui:Button text="W" name="w" />
-                    <ui:Button text="E" name="e" />
-                    <ui:Button text="R" name="r" />
-                    <ui:Button text="T" name="t" />
-                    <ui:Button text="Y" name="y" />
-                    <ui:Button text="U" name="u" />
-                    <ui:Button text="I" name="i" />
-                    <ui:Button text="O" name="o" />
-                    <ui:Button text="P" name="p" />
+                    <ui:Button text="Q" name="q" class="key" />
+                    <ui:Button text="W" name="w" class="key" />
+                    <ui:Button text="E" name="e" class="key" />
+                    <ui:Button text="R" name="r" class="key" />
+                    <ui:Button text="T" name="t" class="key" />
+                    <ui:Button text="Y" name="y" class="key" />
+                    <ui:Button text="U" name="u" class="key" />
+                    <ui:Button text="I" name="i" class="key" />
+                    <ui:Button text="O" name="o" class="key" />
+                    <ui:Button text="P" name="p" class="key" />
                 </ui:GroupBox>
                 <ui:GroupBox name="key-row-1" class="key-row" style="height: 67px;">
-                    <ui:Button text="A" name="a" />
-                    <ui:Button text="S" name="s" />
-                    <ui:Button text="D" name="d" />
-                    <ui:Button text="F" name="f" />
-                    <ui:Button text="G" name="g" />
-                    <ui:Button text="H" name="h" />
-                    <ui:Button text="J" name="j" />
-                    <ui:Button text="K" name="k" />
-                    <ui:Button text="L" name="l" />
+                    <ui:Button text="A" name="a" class="key" />
+                    <ui:Button text="S" name="s" class="key" />
+                    <ui:Button text="D" name="d" class="key" />
+                    <ui:Button text="F" name="f" class="key" />
+                    <ui:Button text="G" name="g" class="key" />
+                    <ui:Button text="H" name="h" class="key" />
+                    <ui:Button text="J" name="j" class="key" />
+                    <ui:Button text="K" name="k" class="key" />
+                    <ui:Button text="L" name="l" class="key" />
                 </ui:GroupBox>
                 <ui:GroupBox name="key-row-2" class="key-row">
-                    <ui:Button text="erase" name="erase" />
-                    <ui:Button text="Z" name="z" />
-                    <ui:Button text="X" name="x" />
-                    <ui:Button text="C" name="c" />
-                    <ui:Button text="V" name="v" />
-                    <ui:Button text="B" name="b" />
-                    <ui:Button text="N" name="n" />
-                    <ui:Button text="M" name="m" />
-                    <ui:Button text="enter" name="enter" />
+                    <ui:Button text="⌫" name="erase" class="key" style="align-items: center; width: 60px; -unity-font: url(&apos;project://database/Assets/Fonts/Inter-Bold.otf?fileID=12800000&amp;guid=5eaa4dff8a1a7b048af7f26988e10b73&amp;type=3#Inter-Bold&apos;); -unity-font-definition: none;" />
+                    <ui:Button text="Z" name="z" class="key" />
+                    <ui:Button text="X" name="x" class="key" />
+                    <ui:Button text="C" name="c" class="key" />
+                    <ui:Button text="V" name="v" class="key" />
+                    <ui:Button text="B" name="b" class="key" />
+                    <ui:Button text="N" name="n" class="key" />
+                    <ui:Button text="M" name="m" class="key" />
+                    <ui:Button text="✓" name="enter" class="key" style="width: 60px; -unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/Fonts/Inter-Bold.otf?fileID=12800000&amp;guid=5eaa4dff8a1a7b048af7f26988e10b73&amp;type=3#Inter-Bold&apos;);" />
                 </ui:GroupBox>
             </ui:GroupBox>
+            <ui:Label text="LET&apos;S GO!" display-tooltip-when-elided="true" name="alert" style="-unity-font-definition: url(&apos;project://database/Assets/Fonts/Outfit-Bold%20SDF.asset?fileID=11400000&amp;guid=7470a9f029b97c64088cd4d8504ac5f9&amp;type=2#Outfit-Bold SDF&apos;); -unity-font: url(&apos;project://database/Assets/Fonts/Outfit-Bold.ttf?fileID=12800000&amp;guid=9e8265ed5aaf2ad44ad9f88e6995a17c&amp;type=3#Outfit-Bold&apos;); font-size: 36px; color: rgb(38, 191, 179); -unity-text-align: middle-center; height: 50px;" />
         </ui:GroupBox>
-        <ui:Label text="Label" display-tooltip-when-elided="true" name="alert" style="-unity-font-definition: url(&apos;project://database/Assets/Fonts/Outfit-Regular%20SDF.asset?fileID=11400000&amp;guid=e955187105fa91249a7ad29cd0af7692&amp;type=2#Outfit-Regular SDF&apos;); -unity-font: url(&apos;project://database/Assets/Fonts/Outfit-Regular.ttf?fileID=12800000&amp;guid=3f955bd76c1796848ac887f49fd364e3&amp;type=3#Outfit-Regular&apos;); font-size: 36px; background-color: rgba(0, 0, 0, 0.43); color: rgb(255, 255, 255); opacity: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 16px; padding-right: 16px; padding-top: 8px; padding-bottom: 8px; position: absolute; left: 50%; top: 50%; translate: -50% -50%; display: none;" />
     </ui:VisualElement>
 </ui:UXML>
